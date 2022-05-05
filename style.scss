@@ -3,7 +3,6 @@
   padding: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
-
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
@@ -15,12 +14,15 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
+  height: 100%;
   font-size: 1.6rem;
   color: white;
   fill: white;
+  overflow-x: hidden;
 }
 
 img,
@@ -33,6 +35,10 @@ button {
   user-select: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 $f1: 48.83px;
@@ -61,9 +67,12 @@ $darkblue: #0d111f;
 header h2,
 .search-icon,
 header nav ul li,
+.header__menu,
+.header__nav-close-btn,
 .header__map svg,
-.col-1__img,
-.col-2__card-img {
+.card__img,
+.col-2__card__img,
+.cards__btn {
   cursor: pointer;
   user-select: none;
 }
@@ -78,8 +87,6 @@ header {
   &::before {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 100%;
     background: rgb(0, 0, 0);
     background: linear-gradient(160deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.71) 100%);
     inset: 0;
@@ -101,43 +108,95 @@ header {
       font-weight: 700;
       font-size: 2rem;
       color: $yellow;
-      cursor: pointer;
-      user-select: none;
     }
     ul {
       display: flex;
       gap: 4rem;
       margin-left: auto;
+      transition: 200ms ease;
+      .header__nav-close-btn {
+        display: none;
+        position: absolute;
+      }
       li {
         list-style-type: none;
         padding-bottom: 0.5rem;
+        transition: 200ms ease;
+        margin-bottom: -1px;
+        border-bottom: 0.2rem solid rgba(252, 209, 22, 0);
         &:hover {
-          border-bottom: 0.1rem solid $yellow;
-          margin-bottom: -1px;
+          border-bottom: 0.2rem solid rgba(252, 209, 22, 1);
         }
       }
     }
     .search-icon {
-      width: 2.5rem;
+      width: 2.3rem;
       margin-left: 4rem;
       svg {
-        transition: 0.2s;
+        transition: 200ms ease;
         &:hover {
           fill: $yellow;
         }
       }
+    }
+    .header__menu {
+      width: 2.3rem;
+      margin-left: 2rem;
+      display: none;
+      svg {
+        transition: 200ms ease;
+        &:hover {
+          fill: $yellow;
+        }
+      }
+    }
+    @media screen and (max-width: 750px) {
+      ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: $blue;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        z-index: 99999;
+        overflow: hidden;
+        width: 0;
+        .header__nav-close-btn {
+          display: block;
+          width: 2rem;
+          top: 5rem;
+          right: 5%;
+          svg {
+            transition: 200ms ease;
+            &:hover {
+              fill: $yellow;
+            }
+          }
+        }
+      }
+      .search-icon {
+        margin-left: auto;
+      }
+      .header__menu {
+        display: block;
+      }
+    }
+    .ul-transition {
+      width: 100%;
+    }
+    @media screen and (max-width: 750px) {
+      position: static;
     }
   }
   .header__main {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15rem;
+    justify-content: space-evenly;
     margin-inline: 5%;
-    @media screen and (max-width: 1010px) {
-      gap: 0rem;
-    }
     .header__intro {
       > * + * {
         margin-top: 2rem;
@@ -156,12 +215,16 @@ header {
         border: 0.1rem solid white;
         font-size: 1.4rem;
         padding: 1rem 2.5rem;
-        transition: 0.25s;
+        transition: 200ms ease;
         color: white;
         &:hover {
           border: 0.1rem solid $yellow;
           color: $yellow;
         }
+      }
+      @media screen and (max-width: 750px) {
+        text-align: center;
+        margin-top: 7.5rem;
       }
     }
     .header__map {
@@ -191,6 +254,14 @@ header {
         }
         &:hover::before {
           opacity: 1;
+        }
+        @media screen and (max-width: 520px) {
+          transform: scale(1.25);
+          &::before {
+            bottom: calc(100% + 0.25rem);
+            right: calc(100% + 0.25rem);
+            left: auto;
+          }
         }
       }
       .location-1 {
@@ -306,13 +377,22 @@ header {
           content: 'SOCCSKSARGEN';
         }
       }
+      @media screen and (max-width: 520px) {
+        transform: scale(0.8);
+      }
     }
+    @media screen and (max-width: 750px) {
+      flex-direction: column;
+      height: calc(100vh - 11.56rem + 40rem);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    height: auto;
   }
 }
 
 main {
   background-color: $blue;
-
   .main__modal-description {
     overflow: hidden;
     border: 0.1rem solid white;
@@ -369,7 +449,7 @@ main {
   }
 
   .col-1 {
-    padding-block: 15.73rem;
+    padding-block: 14rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,62 +457,13 @@ main {
     gap: 2;
     h2 {
       font-size: $f3;
+      font-size: clamp($f4, 4vw, $f3);
       font-weight: 700;
       margin-bottom: 5rem;
-    }
-    .col-1__cards-container {
-      display: flex;
-      gap: 1rem;
-      width: 90%;
-      max-width: 115.2rem;
-      & .col-1__img:nth-child(even) {
-        margin-top: 4rem;
-      }
-      .col-1__img {
-        isolation: isolate;
-        position: relative;
-        height: min-content;
-        overflow: hidden;
-        img {
-          transition: 1s;
-        }
-        &::before {
-          content: '';
-          position: absolute;
-          inset: 0;
-          background-color: rgba(0, 0, 0, 0.25);
-          transition: 1s;
-          z-index: 4;
-        }
-        &:hover img {
-          transform: scale(1.1);
-        }
-        &:hover::before {
-          opacity: 0;
-        }
-      }
-      .col-1__card-info {
-        position: absolute;
-        bottom: 2rem;
-        left: 2rem;
-        display: flex;
-        align-items: center;
-        z-index: 5;
-        .col-1__location-icon {
-          width: 1.2rem;
-          svg {
-            fill: $yellow;
-          }
-        }
-        h4 {
-          font-size: $f6;
-          font-weight: 700;
-          margin-left: 0.75rem;
-        }
-      }
+      text-align: center;
+      margin-inline: 15%;
     }
   }
-
   .col-2 {
     position: relative;
     background-color: $darkblue;
@@ -490,12 +521,12 @@ main {
           font-weight: 700;
           margin-bottom: 3rem;
         }
-        .col-2__cards-container {
+        .col-2__cards__container {
           width: 100%;
           max-width: 91.8rem;
           display: flex;
           gap: 1rem;
-          .col-2__card-img {
+          .col-2__card__img {
             isolation: isolate;
             position: relative;
             overflow: hidden;
@@ -516,7 +547,7 @@ main {
             &:hover::before {
               opacity: 0;
             }
-            .col-2__card-info {
+            .col-2__card__info {
               position: absolute;
               bottom: 2rem;
               left: 2rem;
@@ -542,45 +573,85 @@ main {
   }
 }
 
-// <div class="col-2">
-// <nav class="col-2__side-nav">
-//   <h4>Regions</h4>
-//   <ul>
-//     <li>CAR</li>
-//     <li>Ilocos Region</li>
-//     <li>Cagayan Valley</li>
-//     <li>Central Luzon</li>
-//     <li>CALABARZON</li>
-//     <li>NCR</li>
-//     <li>MIMAROPA</li>
-//     <li>Bicol Region</li>
-//     <li>Western Visayas</li>
-//     <li>Central Visayas</li>
-//     <li>Eastern Visayas</li>
-//     <li>Zamboanga Peninsula</li>
-//     <li>Northern Mindanao</li>
-//     <li>Davao Region</li>
-//     <li>SOCCSKSARGEN</li>
-//     <li>Caraga Region</li>
-//   </ul>
-// </nav>
-// <div class="col-2__contents">
-//   <div class="region-1">
-//     <h2>Cordillera Administrative Region</h2>
-//     <div class="col-2__cards-container">
-//       <div class="col-2__card-img">
-//         <img src="images/CAR/Baguio.jpg" alt="baguio" />
-//       </div>
-//       <div class="col-2__card-img">
-//         <img src="images/CAR/Mountain-Province.jpg" alt="mountain province" />
-//       </div>
-//       <div class="col-2__card-img">
-//         <img src="images/CAR/Benguet.jpg" alt="benguet" />
-//       </div>
-//       <div class="col-2__card-img">
-//         <img src="images/CAR/Mountain-Province.jpg" alt="mountain province" />
-//       </div>
-//     </div>
-//   </div>
-// </div>
-// </div>
+.cards__container {
+  max-width: 115.2rem;
+  width: 75%;
+  position: relative;
+  .cards__overflow {
+    overflow: hidden;
+    .cards__scroll-container {
+      display: flex;
+      left: 0;
+      position: relative;
+      transition: 200ms ease;
+      .card__img {
+        isolation: isolate;
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 2 / 3;
+        width: 100%;
+        img {
+          transition: 500ms ease;
+          object-fit: cover;
+          height: 100%;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background-color: rgba(0, 0, 0, 0.25);
+          transition: 1s;
+          z-index: 4;
+        }
+        &:hover img {
+          transform: scale(1.1);
+        }
+        &:hover::before {
+          opacity: 0;
+        }
+        .card__info {
+          position: absolute;
+          bottom: 2rem;
+          left: 2rem;
+          display: flex;
+          align-items: center;
+          z-index: 5;
+          .card__location-icon {
+            width: 1.2rem;
+            svg {
+              fill: $yellow;
+            }
+          }
+          h4 {
+            font-size: $f6;
+            font-weight: 600;
+            margin-left: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+  .cards__left-btn,
+  .cards__right-btn {
+    position: absolute;
+    z-index: 9999;
+  }
+  .cards__left-btn,
+  .cards__right-btn {
+    width: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.25;
+    transition: 500ms ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .cards__left-btn {
+    left: -4rem;
+    transform: rotate(180deg) translateY(50%);
+  }
+  .cards__right-btn {
+    right: -4rem;
+  }
+}
