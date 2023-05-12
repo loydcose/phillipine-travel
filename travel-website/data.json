@@ -1,0 +1,639 @@
+{
+  "popular": {
+    "title": "Popular places you must to see!",
+    "locations": {
+      "location-1": {
+        "path": ["popular", "location-1"],
+        "name": "Manila",
+        "image": "/images/Popular/Manila.jpg",
+        "description": "Visit the capital of the Philippines! If you’re visiting the Philippines for the first time, don't skip this bustling city. Manila is an excellent hub for Philippine culture, history, shopping, and nightlife. You’ll be greeted with lively streets teeming with cars, buildings, and people with high energy, but you’ll also never run out of fun activities to do."
+      },
+      "location-2": {
+        "path": ["popular", "location-2"],
+        "name": "Boracay",
+        "image": "/images/Popular/Boracay.jpg",
+        "description": "Being the Philippines’ top tourist draw and most famous beach took its toll on the island of Boracay. After taking a break for 6 months, Boracay reopens greener than ever—and everything is pristine like never before. Learn more about the new Boracay and be prepared to fall in love all over again. With glorious White Beach and the country's best island nightlife on its resume, it's easy to understand why Boracay is the Philippines' top tourist draw. Alas, the tiny island proved too popular for its own good: In 2018 Boracay was placed in rehab, closed for 6 months to ease the strain on its fragile environment and fix the infrastructure and carrying capacity."
+      },
+      "location-3": {
+        "path": ["popular", "location-3"],
+        "name": "El Nido",
+        "image": "/images/Popular/El Nido.jpg",
+        "description": "El Nido, known as one of the best islands in the world, will open its doors for local tourists. Hop on an island adventure and check out this quick guide on the requirements, processes, list of hotels, tips, and health and safety protocols for a more convenient travel."
+      },
+      "location-4": {
+        "path": ["popular", "location-4"],
+        "name": "Siargao",
+        "image": "/images/Popular/Siargao.jpg",
+        "description": "Once a well-kept secret in surfing circles, the island of Siargao has slowly become one of the most sought-after destinations in the world. Discover why this tiny haven with world-class waves, white sand islets, turquoise tide pools, and hidden lagoons was hailed as the world’s most beautiful island back in 2018. Premium travel magazine Conde Nast Traveler named Siargao the world's most beautiful island in 2018 and all the flights to the tiny, tear-shaped island have been increasing ever since. "
+      },
+      "location-5": {
+        "path": ["popular", "location-5"],
+        "name": "Coron",
+        "image": "/images/Popular/Coron.jpg",
+        "description": "Coron is one of Palawan’s most popular beach and island destinations. This paradise-like getaway comprises of the eastern half of Busuanga Island, Coron Island, and 50 other islets within the vicinity, all of which are separate from the main Palawan island. It has caught the attention of many due to its World War II wreck diving spots, beautiful rock formations, and unbelievably clear waters. It is also considered the more quiet and laidback sibling of El Nido, another famous Palawan destination because of its gorgeous waters and scenery. Coron certainly has a unique charm to it and worth adding to your travel bucket list when in the Philippines."
+      }
+    }
+  },
+  "region-1": {
+    "title": "Cordillera Administrative Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-1", "location-1"],
+        "name": "Baguio City",
+        "image": "/images/CAR/baguio.jpg",
+        "description": "Hailed as the Summer Capital of the Philippines, Baguio is the top destination to go to if you want to take a break from the tropical heat in the lowlands. With average temperatures ranging from 15-23°C, the city rarely experiences temperatures higher than 26°C even during the warmest parts of the year. Because of this climate, Baguio is also home to beautiful plants that wouldn’t usually survive elsewhere in the county. Also nicknamed the City of Pines, you’ll be in for a treat with all the beautiful flowers and lush vegetation as you enter the vicinity. It will truly feel as if you’re entering a different world."
+      },
+      "location-2": {
+        "path": ["region-1", "location-2"],
+        "name": "Mountain Province",
+        "image": "/images/CAR/Mountain-Province.jpg",
+        "description": "Mountain Province is most known for its hanging coffins where mummified remains of the local ancestors are found. Other points of interest are the different historical sites like the Dap-ay or Ato, an ancient practice of tribal elders still coming together to this day to decide issues and concerns, and the many tribal celebrations where one can participate in, such as the Lang-ay Cultural Festival. Improve your craft and skills and learn how to weave local baskets and fabric. Take home a few pieces as souvenirs."
+      },
+      "location-3": {
+        "path": ["region-1", "location-3"],
+        "name": "Ifugao",
+        "image": "/images/CAR/ifugao.jpg",
+        "description": "When visiting Ifugao, make sure to get a taste of their famous Tinawon rice. While searching for rice keep an eye out for the bulul. It is a carved wooden figure used to guard their rice crops. If you haven’t had enough of rice yet, visit UNESCO cultural landscapes, the Rice Terraces of the Philippines and scale the 2,000 year old Banaue Rice Terraces carved into the mountains by Ifugaos. Cap off your trip by attending festivals, Gotad Ad Ifugao, held every June to showcase their age old cultures and traditions; where one can participate in the traditional wooden scooter race."
+      },
+      "location-4": {
+        "path": ["region-1", "location-4"],
+        "name": "Benguet",
+        "image": "/images/CAR/benguet.jpg",
+        "description": "The Philippines is not just famous for its islands and beaches. The country also boasts of natural and scenic landscapes with the province of Benguet housing a number of them. Found at the southernmost part of the Cordillera Administrative Region in North of Luzon, Benguet is nicknamed the Salad Bowl of the Philippines, since it's one of the main source of fresh vegetables in the country. With picturesque mountain views, tranquil atmosphere, and cool breeze, Benguet provides a refreshing escape from the busy city life."
+      },
+      "location-5": {
+        "path": ["region-1", "location-5"],
+        "name": "Mountain Province",
+        "image": "/images/CAR/Mountain-Province.jpg",
+        "description": "Mountain Province is most known for its hanging coffins where mummified remains of the local ancestors are found. Other points of interest are the different historical sites like the Dap-ay or Ato, an ancient practice of tribal elders still coming together to this day to decide issues and concerns, and the many tribal celebrations where one can participate in, such as the Lang-ay Cultural Festival. Improve your craft and skills and learn how to weave local baskets and fabric. Take home a few pieces as souvenirs."
+      }
+    }
+  },
+  "region-2": {
+    "title": "Ilocos Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-2", "location-1"],
+        "name": "Pangasinan",
+        "image": "/images/Ilocos Region/Pangasinan.jpg",
+        "description": "Hailed as the Summer Capital of the Philippines, Baguio is the top destination to go to if you want to take a break from the tropical heat in the lowlands. With average temperatures ranging from 15-23°C, the city rarely experiences temperatures higher than 26°C even during the warmest parts of the year. Because of this climate, Baguio is also home to beautiful plants that wouldn’t usually survive elsewhere in the county. Also nicknamed the City of Pines, you’ll be in for a treat with all the beautiful flowers and lush vegetation as you enter the vicinity. It will truly feel as if you’re entering a different world."
+      },
+      "location-2": {
+        "path": ["region-2", "location-2"],
+        "name": "Mountain Province",
+        "image": "/images/Ilocos Region/La Union.jpg",
+        "description": "Mountain Province is most known for its hanging coffins where mummified remains of the local ancestors are found. Other points of interest are the different historical sites like the Dap-ay or Ato, an ancient practice of tribal elders still coming together to this day to decide issues and concerns, and the many tribal celebrations where one can participate in, such as the Lang-ay Cultural Festival. Improve your craft and skills and learn how to weave local baskets and fabric. Take home a few pieces as souvenirs."
+      },
+      "location-3": {
+        "path": ["region-2", "location-3"],
+        "name": "Ilocos Sur",
+        "image": "/images/Ilocos Region/Ilocos Sur.jpg",
+        "description": "When visiting Ifugao, make sure to get a taste of their famous Tinawon rice. While searching for rice keep an eye out for the bulul. It is a carved wooden figure used to guard their rice crops. If you haven’t had enough of rice yet, visit UNESCO cultural landscapes, the Rice Terraces of the Philippines and scale the 2,000 year old Banaue Rice Terraces carved into the mountains by Ifugaos. Cap off your trip by attending festivals, Gotad Ad Ifugao, held every June to showcase their age old cultures and traditions; where one can participate in the traditional wooden scooter race."
+      },
+      "location-4": {
+        "path": ["region-2", "location-4"],
+        "name": "Benguet",
+        "image": "/images/Ilocos Region/Ilocos Norte.jpg",
+        "description": "The Philippines is not just famous for its islands and beaches. The country also boasts of natural and scenic landscapes with the province of Benguet housing a number of them. Found at the southernmost part of the Cordillera Administrative Region in North of Luzon, Benguet is nicknamed the Salad Bowl of the Philippines, since it's one of the main source of fresh vegetables in the country. With picturesque mountain views, tranquil atmosphere, and cool breeze, Benguet provides a refreshing escape from the busy city life."
+      }
+    }
+  },
+  "region-3": {
+    "title": "Cagayan Valley",
+    "locations": {
+      "location-1": {
+        "path": ["region-3", "location-1"],
+        "name": "Quirino",
+        "image": "/images/Cagayan Valley/Quirino.jpg",
+        "description": "Quirino Province lies in the southeastern portion of Cagayan Valley Region within the upper Cagayan River Basin. Isabela bounds it on the north, Aurora on the east and southeast, and Nueva Vizcaya on the west and southwest. The Sierra Madre Mountain Range provides a natural barrier on the eastern and southern border and the Mamparang Range on the western part of the province. It has a total land area of 3,057 square kilometers which is approximately 8.4 percent of the regional area, and 1.02 percent of the total land area of the country."
+      },
+      "location-2": {
+        "path": ["region-3", "location-2"],
+        "name": "Nueva Vizcaya",
+        "image": "/images/Cagayan Valley/Nueva Vizcaya.jpg",
+        "description": "The province of Nueva Vizcaya is located in the north-central part of Luzon in Region 2. The province of Ifugao and Isabela bound it on the north and northeast, on the east and southeast by Quirino and Aurora respectively, on the south by Nueva Ecija, and on the west by Benguet and Pangasinan. The province is actually bounded by three mountain ranges covered with forest and grasslands, namely the Sierra Madre on the east, the Cordillera on the west, and the Caraballo on the south. The province is 287 kilometers north of Metro Manila."
+      },
+      "location-3": {
+        "path": ["region-3", "location-3"],
+        "name": "Isabela",
+        "image": "/images/Cagayan Valley/Isabela.jpg",
+        "description": "In order to facilitate the work of the missionaries in the evangelization of the Cagayan Valley, a Royal Decree was issued on May 1, 1856 which created the province of Isabela from the portion of the province of Cagayan and Nueva Vizcaya. From Cagayan, the towns of Gamu, Angadanan, and Gamarang (now Echague) and from Nueva Vizcaya, its capital town Carig (now Santiago) and Palanan were segregated to constitute the province of Isabela. The new province was named in honor of “Her Royal Highness Queen Isabela II” of Spain."
+      },
+      "location-4": {
+        "path": ["region-3", "location-4"],
+        "name": "Cagayan",
+        "image": "/images/Cagayan Valley/Cagayan.jpg",
+        "description": "Cauayan was an original town of the Province of Cagayan. It was transferred to Nueva Vizcaya when it became a province in 1839. Upon the creation of Isabela as a province by a Royal Decree issued in May 1856, it was reverted as a town of the new province. The town site was first located in a place called Calanusian along the Cagayan River, but after a series of disastrous floods, the town site was transferred to its present location."
+      },
+      "location-5": {
+        "path": ["region-3", "location-5"],
+        "name": "Batanes",
+        "image": "/images/Cagayan Valley/Batanes.jpg",
+        "description": "The island-province of Batanes is the smallest province in the Philippines with a land area of 230 square kilometers and was created by a series of volcanic activities and other geologic forces when Mt. Iraya erupted around 325 BC. It is bounded on the north by the Bashi Channel, on the east by the Pacific Ocean, on the west by the West Philippine Sea and on the south by the Balintang Channel. Basco, its capital town, is about 280 kilometers north of Aparri, Cagayan or some 860 kilometers north of Manila and about 190 kilometers south of Taiwan. The prehistoric Ivatans who are nationally acclaimed as the “True Insulares” were boatmaking and seafaring people who lived in small tribal communities that lived on fishing, hunting, horticulture, and raising root crops."
+      }
+    }
+  },
+  "region-4": {
+    "title": "Central Luzon",
+    "locations": {
+      "location-1": {
+        "path": ["region-4", "location-1"],
+        "name": "Zambales",
+        "image": "/images/Central Luzon/Zambales.jpg",
+        "description": "Want a quick beach and island escape from the bustling cities of Metro Manila? Hop on a bus or drive your way to Zambales! Zambales is blessed with pristine attractions for sun worshipers because of its location on the western shores of Luzon, along the West Philippine Sea. It’s home to many coves and islands like Anawangin Cove, Nagsasa Cove, Potipot Island, and Capones Island to name a few. Zambales is also where you can find another top destination in the North, Subic. The active stratovolcano Mount Pinatubo’s summit and crater lake also lies in the Botolan area of Zambales."
+      },
+      "location-2": {
+        "path": ["region-4", "location-2"],
+        "name": "Tarlac",
+        "image": "/images/Central Luzon/Tarlac.jpg",
+        "description": "Tarlac is the most multicultural of the Central Luzon provinces. A mixture of four distinct groups – the Pampangos, Ilocanos, Pangasinenses and Tagalogs – share this province and living together resulted in offering to the visitors the best cuisine of the places where their ancestors had come from, namely Bulacan, Nueva Ecija, Zambales, Pangasinan and the Ilocos Region. Tarlac is also best known for its fine foods and vast sugar and rice plantations. That it has fine cooking to offer is largely due to the fact that it is the melting pot of Central Luzon. Its myriad of historical sites, fine foods, vast sugar and rice plantations, and a beautifully landscaped golf course plus so many other attractions all make the province of Tarlac one of the best places to visit in Central Luzon."
+      },
+      "location-3": {
+        "path": ["region-4", "location-3"],
+        "name": "Pampanga",
+        "image": "/images/Central Luzon/Pampanga.jpg",
+        "description": "Pampanga holds the title of being the Culinary Capital of the Philippines as they offer some of the best Filipino dishes, but there's more to this Central Luzon province that just good food. Aside from being home to the highly urbanized and modern city of Clark, you can also go here for hiking trips, or attend crowd-favorite festivals that feature hot air balloons and beautiful displays of Christmas lanterns. Pampanga is just a couple of hours away from Manila, so add this destination to your travel list when in the Philippines for a culinary adventure, nature trips, and fun colorful festivals."
+      },
+      "location-4": {
+        "path": ["region-4", "location-4"],
+        "name": "Bataan",
+        "image": "/images/Central Luzon/Bataan.jpg",
+        "description": "Discover the magic with this amazing historical and cultural region, only an hour by ferryboat across the bay from Manila. Until recently not a traditional tourist destination, this province is now proving to be a tourist haven with many exciting places to visit, and a lot of interesting things to do. There is so much to offer in Bataan, culture, beauty, history, in spoilt beaches and a warm hospitality that is truly Filipino."
+      },
+      "location-5": {
+        "path": ["region-4", "location-5"],
+        "name": "Aurora",
+        "image": "/images/Central Luzon/Aurora.jpg",
+        "description": "Aurora is a province blessed with an abundance of tourist attractions. It has its share of historical sights such as the home and resthouse of former Philippine President Manuel L. Quezon. The province also has a beautiful Catholic church and several historical markers. Its natural attractions include picturesque waterfalls, lush greenery on mountainsides, and panoramic beaches. Surfing, snorkeling, scuba diving, mountain climbing and trekking are only some of the activities a tourist can enjoy in Aurora."
+      }
+    }
+  },
+  "region-5": {
+    "title": "CALABARZON",
+    "locations": {
+      "location-1": {
+        "path": ["region-5", "location-1"],
+        "name": "Rizal",
+        "image": "/images/CALABARZON/Rizal.jpg",
+        "description": "Rizal is where you touch base with nature without losing touch with the finer points of urban living. Verdant hills and undulating valleys stretch from the rugged foothills of Montalban and Antipolo, down to the picturesque shores of Laguna de Bay. The terrain offers exciting opportunities for biking, mountain climbing and camping amidst rolling hills, lakeshores, caves and waterfalls. Known as the Cradle of Philippine Art, the province attests to the creative tradition that has spawned generations of visual and performing artists. Be amazed at art masterpieces displayed at many local galleries in Angono. Discover the oldest known art dating as far back 3000 BC that is Angono-Binangonan Petroglyphs."
+      },
+      "location-2": {
+        "path": ["region-5", "location-2"],
+        "name": "Quezon",
+        "image": "/images/CALABARZON/Quezon.jpg",
+        "description": "The towns of Quezon know how to put on a party come the feast of San Isidro Labrador, the patron saint of farmers. And there are attractions for almost every kind of traveler – nature tripper, adrenaline junkie, or history buff. Unspoiled islands with sugar-sand beaches and clear blue waters. Waterfalls and caves waiting to be explored. Have a taste of Filipino hospitality at local restaurants and bring home some longganisang Lucban or pansit habhab. Festive folk art. Colorfully decorated houses. Tables overflowing with food. Mention the province of Quezon and these are some images that come to mind."
+      },
+      "location-3": {
+        "path": ["region-5", "location-3"],
+        "name": "Cavite",
+        "image": "/images/CALABARZON/Cavite.jpg",
+        "description": "Cavite is steeped in history and blessed with natural beauty. Follow an interesting trail of historic sites and monuments associated with the Philippine Revolution. Prepare your senses at breathtaking landscapes and natural attractions, while you indulge in various health massage and wellness treatments. Choose from extensive menus of well-prepared dishes, served with the magnificent view of the Taal Lake and Volcano Island. Engage in outdoor sports like biking and hiking along the winding roads of Tagaytay and its environs. Trek the mountains and laze on the beaches of Ternate and Maragondon. Enjoy world-class golf courses and leisure facilities."
+      },
+      "location-4": {
+        "path": ["region-5", "location-4"],
+        "name": "Batangas",
+        "image": "/images/CALABARZON/Batangas.jpg",
+        "description": "Savor the slice of paradise in Batangas’ seaside towns and villages. Dive into depths of Anilao, Batangas’ very own underwater Eden. Swim and dive into the tropical waters of Verde Island Passage, described as the center of the world’s marine biodiversity. Frolic on Laiya Aplaya, San Juan town’s famous stretch of white sand beach, and hop around the many offshore islets. Travel back in time at Taal Heritage Village and marvel at the well-preserved ancestral houses. Visit the many centuries-old churches, each one architecturally awe-inspiring. Sample the local brew of Batangas coffee and witness the art of Balisong-making. Indeed a multi-faceted beauty, Batangas never ceases to catch the eye of everyone with its many charms and wonderful surprises."
+      },
+      "location-5": {
+        "path": ["region-5", "location-5"],
+        "name": "Laguna",
+        "image": "/images/CALABARZON/Laguna.jpg",
+        "description": "With Laguna endowed with the bounty of nature such as numerous mineral hot and cold springs, majestic waterfalls and protected forest areas teeming with a great diversity of flora and fauna, the province is an important cluster of destinations for eco-tourism, wellness visits, and leisure activities. Relive the age-old tradition of embroidery, wood carving, footwear making and visual arts. Visit intricately designed Spanish-colonial period churches. Shoot the rapids of Pagsanjan Falls, navigate your wooden canoe past trees and local wildlife. Seek thrill in various water activities around the province. Take delight in the abundance of fruits and native delicacies. Experience magic in the first world-class amusement park in the country."
+      }
+    }
+  },
+  "region-6": {
+    "title": "National Capital Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-6", "location-1"],
+        "name": "San Juan",
+        "image": "/images/NCR/San Juan.jpg",
+        "description": "San Juan City is a hub of history, culture and commerce throughout the years. It has played host to several key moments in the history of the nation. It is where the first battle of the Philippine Revolution, known as the Battle of San Juan Del Monte, took place in 1896 which ignited the patriotism of our forebears and led to the Philippine Independence in 1898. When it comes to leisure and entertainment, San Juan plays host to a variety of shopping and dining facilities. It is also known as the “tiangge” (flea market) capital of the Metro with the presence of a pioneer shopping center found in the city – the Greenhills Shopping Center. The shopping center has become a landmark and pride of the City."
+      },
+      "location-2": {
+        "path": ["region-6", "location-2"],
+        "name": "Taguig",
+        "image": "/images/NCR/Taguig.jpg",
+        "description": "The City of Taguig provides a new urban landscape which makes them a highly urbanized city and fast transforming as the country’s next center of investment, financial and commercial hub. Leading development area composed of 240 hectares is the Bonifacio Global City, a financial and lifestyle district and is home to selection of international hotel chain, upscale malls, restaurants and cafes, the country’s first world class science museum, and a franchise of a Mexican chain of family and entertainment centers. Well-planned landscapes, an efficient traffic system, pocket parks, and wide pedestrian sidewalks make this place a community haven. All these and more are what BGC and the City of Taguig create and offer to urban dwellers."
+      },
+      "location-3": {
+        "path": ["region-6", "location-3"],
+        "name": "Quezon City",
+        "image": "/images/NCR/Quezon City.jpg",
+        "description": "Under former President Manuel L. Quezon, it was envisioned as a new capital of the Philippines and was capital from 1948-1976.By far, Quezon City has the largest population in Metro Manila considering also that it is the second biggest city in the Philippines. While the city’s tourism thrust is focus on its cultural, historical and educational activities, it has a competitive direction of providing livelihood opportunities from the tourism sector. The city has tremendous tourism offerings that cater to the needs of the visitors."
+      },
+      "location-4": {
+        "path": ["region-6", "location-4"],
+        "name": "Las Pinas",
+        "image": "/images/NCR/Las Pinas.jpg",
+        "description": "Known nationwide for its bamboo organ, salt beds, jeepney factory, and the Las Pinas-Paranaque Wetlands, the city is distinguished as one of Metro Manila’s fastest-growing communities. Although it became a city only in 1997, Las Piñas was one of the first settlements at the outskirts of Manila. The city is bounded on the north and northeast by the City of Paranaque, on the east and southeast by the City of Muntinlupa, on the south by the municipality of Imus and Bacoor in Cavite province, and on the northeast by the scenic Manila Bay. Half of the land area of the city has already been developed for residential purposes and the remaining half is used for commercial, industry and institutional area."
+      },
+      "location-5": {
+        "path": ["region-6", "location-5"],
+        "name": "Paranaque",
+        "image": "/images/NCR/Paranaque.jpg",
+        "description": "Comes as the third city along the Manila Bay and it is bounded by Pasay City on the north, Muntinlupa City on the southeast, Las Pinas City on the southwest and Manila Bay on the west. It has 16 Barangays in its 2 Districts and the city is known for its thriving fishing industry. The city has also emerged as one of the region’s tourism and entertainment hotspots."
+      },
+      "location-6": {
+        "path": ["region-6", "location-6"],
+        "name": "Pateros",
+        "image": "/images/NCR/Pateros.jpg",
+        "description": "The Municipality of Pateros is a First-Class Municipality and the lone Municipality in Metro Manila. Pateros is famous for its duck-raising industry and especially for producing balut, a Filipino delicacy, which is a boiled, fertilized duck egg. Pateros is also known for the production of red salty eggs and inutak, a local rice cake. Moreover, the town is also known for manufacturing of   alfombra, a locally-made footwear with a carpet-like fabric on its top surface. It is one of the indigenous skills in Pateros."
+      },
+      "location-7": {
+        "path": ["region-6", "location-7"],
+        "name": "Pasay",
+        "image": "/images/NCR/Pasay.jpg",
+        "description": "Pasay is the host city of the three international airport terminals in Metro Manila. It is also a major tourist destination due to its several places of interest that tourists and visitors can see while in the city such as world-class accommodations, shopping and entertainment, as well as world-class international convention and events facilities."
+      },
+      "location-8": {
+        "path": ["region-6", "location-8"],
+        "name": "Manila",
+        "image": "/images/NCR/Manila.jpg",
+        "description": "Visit the capital of the Philippines! If you’re visiting the Philippines for the first time, don't skip this bustling city. Manila is an excellent hub for Philippine culture, history, shopping, and nightlife. You’ll be greeted with lively streets teeming with cars, buildings, and people with high energy, but you’ll also never run out of fun activities to do."
+      },
+      "location-9": {
+        "path": ["region-6", "location-9"],
+        "name": "Malabon",
+        "image": "/images/NCR/Malabon.jpg",
+        "description": "It is known as a cultural and culinary destination for its heritage houses and century-old churches, as well as, for its popular delicacies such as Pansit Malabon and Kakanin. The City has remained devoted in their efforts to promote cultural tourism based from their initiatives of advocating pride of place as well as giving importance to their town’s rich history and heritage."
+      },
+      "location-10": {
+        "path": ["region-6", "location-10"],
+        "name": "Makati",
+        "image": "/images/NCR/Makati.jpg",
+        "description": "Makati is the country’s financial center and commercial hub. It is also the primary destination for business, lifestyle, entertainment, and culture as it is home to five star hotels, upscale shopping centers, first class restaurants, embassies and consulates which makes Makati a tourist and local haven for modern lifestyle and recreation."
+      }
+    }
+  },
+  "region-7": {
+    "title": "MIMAROPA",
+    "locations": {
+      "location-1": {
+        "path": ["region-7", "location-1"],
+        "name": "Puerto Princesa",
+        "image": "/images/MIMAROPA/Puerto Princesa.jpg",
+        "description": "Visit the capital of Palawan, home of the UNESCO World Heritage site and famed Underground River. Travelers will have to pass through here when heading for other popular Palawan destinations such as El Nido and Coron. However, there’s more than meets the eye in The City in a Forest. You’ll be surprised to find out that Puerto Princesa has natural and cultural wonders to offer for different kinds of travelers as well. Plus, there are splendid beaches that line up its coast, too!"
+      },
+      "location-2": {
+        "path": ["region-7", "location-2"],
+        "name": "El Nido",
+        "image": "/images/MIMAROPA/El Nido.jpg",
+        "description": "El Nido, known as one of the best islands in the world, will open its doors for local tourists. Hop on an island adventure and check out this quick guide on the requirements, processes, list of hotels, tips, and health and safety protocols for a more convenient travel."
+      },
+      "location-3": {
+        "path": ["region-7", "location-3"],
+        "name": "Coron",
+        "image": "/images/MIMAROPA/Coron.jpg",
+        "description": "Coron is one of Palawan’s most popular beach and island destinations. This paradise-like getaway comprises of the eastern half of Busuanga Island, Coron Island, and 50 other islets within the vicinity, all of which are separate from the main Palawan island. It has caught the attention of many due to its World War II wreck diving spots, beautiful rock formations, and unbelievably clear waters. It is also considered the more quiet and laidback sibling of El Nido, another famous Palawan destination because of its gorgeous waters and scenery. Coron certainly has a unique charm to it and worth adding to your travel bucket list when in the Philippines."
+      },
+      "location-4": {
+        "path": ["region-7", "location-4"],
+        "name": "Romblon",
+        "image": "/images/MIMAROPA/Romblon.jpg",
+        "description": "The early aborigines of Romblon were believed to be the Negritos from Panay Island and the Mangyans from Mindoro. It was in 1582 when the Loarca expedition came to the islands and named them collectively as “Lomlon”. The secular clergy administered the province until 1635."
+      },
+      "location-5": {
+        "path": ["region-7", "location-5"],
+        "name": "Palawan",
+        "image": "/images/MIMAROPA/Palawan.jpg",
+        "description": "The paradisal province of Palawan is a constant feature in many international “Best In The World” lists, thanks to its rich and diverse flora and fauna, and much-preserved natural attractions. Discover why healthy ecotourism is such an essential part in maintaining the natural wonders of this heaven on earth. To say Palawan is a beach bum's fantasy is an understatement. Sailing the length of the province­ from the north to the southern tip of the main island-brings you up close and personal with paradise in countless forms: from the coral-fringed dreamscapes of the Calamianes and the karst limestone formations of El Nido, to the wind-swept shorelines of central Palawan and the pristine sandbars of Balabac."
+      },
+      "location-6": {
+        "path": ["region-7", "location-6"],
+        "name": "Occidental Mindoro",
+        "image": "/images/MIMAROPA/Occidental Mindoro.jpg",
+        "description": "Mindoro, the seventh largest island in the Philippines, was founded by the members of the Spanish mission. They occupied the southern and northern tips of the island, but were soon driven away by Muslim hordes. The Muslim later built strongholds in the island from which they launched attacks against Manila. They were later vanquished by the forces of Simon de Anda."
+      }
+    }
+  },
+  "region-8": {
+    "title": "Bicol Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-8", "location-1"],
+        "name": "Sorsogon",
+        "image": "/images/Bicol Region/Sorsogon.jpg",
+        "description": "Sorsogon City, officially known as the City of Sorsogon, is a 3rd class component city and capital of the province of Sorsogon, Philippines. According to the 2020 census, it has a population of 182,237 people. The component city was established on the year of 2000, from the merger of Bacon and Sorsogon municipalities."
+      },
+      "location-2": {
+        "path": ["region-8", "location-2"],
+        "name": "Catanduanes",
+        "image": "/images/Bicol Region/Catanduanes.jpg",
+        "description": "Catanduanes is an island province located in the Bicol Region of Luzon in the Philippines. It is the 12th-largest island in the Philippines, and lies to the east of Camarines Sur, across Maqueda Channel. Its capital is Virac. It had a population of 271,879 people as of the 2020 census."
+      },
+      "location-3": {
+        "path": ["region-8", "location-3"],
+        "name": "Camarines Sur",
+        "image": "/images/Bicol Region/Camarines Sur.jpg",
+        "description": "Camarines Sur is a province in the Philippines located in the Bicol Region in Luzon. Its capital is Pili and the province borders Camarines Norte and Quezon to the northwest, and Albay to the south. To the east lies the island province of Catanduanes across the Maqueda Channel."
+      },
+      "location-4": {
+        "path": ["region-8", "location-4"],
+        "name": "Camarines Norte",
+        "image": "/images/Bicol Region/Camarines Norte.jpg",
+        "description": "Camarines Norte is a province in the Philippines located in the Bicol Region in Luzon. Its capital is Daet. The province borders Quezon to the west, Camarines Sur to the south, and the Philippine Sea to the north."
+      },
+      "location-5": {
+        "path": ["region-8", "location-5"],
+        "name": "Albay",
+        "image": "/images/Bicol Region/Albay.jpg",
+        "description": "Albay, officially the Province of Albay, is a province in the Bicol Region of the Philippines, mostly on the southeastern part of the island of Luzon. Its capital is the city of Legazpi, the regional center of the whole Bicol Region, which is located in the southern foothill of Mayon Volcano."
+      }
+    }
+  },
+  "region-9": {
+    "title": "Western Visayas",
+    "locations": {
+      "location-1": {
+        "path": ["region-9", "location-1"],
+        "name": "Boracay",
+        "image": "/images/Western Visayas/Boracay.jpg",
+        "description": "Being the Philippines’ top tourist draw and most famous beach took its toll on the island of Boracay. After taking a break for 6 months, Boracay reopens greener than ever—and everything is pristine like never before. Learn more about the new Boracay and be prepared to fall in love all over again. With glorious White Beach and the country's best island nightlife on its resume, it's easy to understand why Boracay is the Philippines' top tourist draw. Alas, the tiny island proved too popular for its own good: In 2018 Boracay was placed in rehab, closed for 6 months to ease the strain on its fragile environment and fix the infrastructure and carrying capacity."
+      },
+      "location-2": {
+        "path": ["region-9", "location-2"],
+        "name": "Negros Occidental",
+        "image": "/images/Western Visayas/Negros Occidental.jpg",
+        "description": "Negros Occidental is a province in the Philippines located in the Western Visayas region. Its capital is the city of Bacolod. It occupies the northwestern half of the large island of Negros, and borders Negros Oriental, which comprises the southeastern half."
+      },
+      "location-3": {
+        "path": ["region-9", "location-3"],
+        "name": "Iloilo",
+        "image": "/images/Western Visayas/Iloilo.jpg",
+        "description": "Because of its geographical placement in the middle of the country, Iloilo has been hailed as The Heart of the Philippines. Iloilo is home to historical landmarks, quaint beaches and islands, heritage homes, plus tasty and unique cuisine. The province's picturesque natural wonders and the friendly locals will make this a destination that will feel like a second home."
+      },
+      "location-4": {
+        "path": ["region-9", "location-4"],
+        "name": "Guimaras",
+        "image": "/images/Western Visayas/Guimaras.jpg",
+        "description": "Guimaras locally, officially the Province of Guimaras is an island province in the Philippines located in the Western Visayas region. Its capital is Jordan. The province is situated in the Panay Gulf, between the islands of Panay and Negros."
+      },
+      "location-5": {
+        "path": ["region-9", "location-5"],
+        "name": "Capiz",
+        "image": "/images/Western Visayas/Capiz.jpg",
+        "description": "Capiz is a province in the Western Visayas region that is home to Roxas City, also known as the Seafood Capital of the Philippines. Aside from the mouthwatering seafood dishes, Capiz also boasts of enchanting caves, historical landmarks, and beaches that will fulfill your wanderlust. If you're looking to feast on the freshest seafood and a fun adventure in the Philippines, then you should add Capiz to your travel bucket list."
+      },
+      "location-6": {
+        "path": ["region-9", "location-6"],
+        "name": "Bacolod City",
+        "image": "/images/Western Visayas/Bacolod City.jpg",
+        "description": "Explore Bacolod, a destination with rich culture, good food, and heritage sites will that take you back to the Spanish colonial period in the Philippines. Known as The City of Smiles, and located in the Northwest of Negros Occidental in Visayas, a visit here will definitely put a smile on your face because of the attractions, food, and festivities that await you."
+      },
+      "location-7": {
+        "path": ["region-9", "location-7"],
+        "name": "Antique",
+        "image": "/images/Western Visayas/Antique.jpg",
+        "description": "Antique, officially the Province of Antique, is a province in the Philippines located in the Western Visayas region. Its capital is San Jose de Buenavista, the most populous town in Antique."
+      },
+      "location-8": {
+        "path": ["region-9", "location-8"],
+        "name": "Aklan",
+        "image": "/images/Western Visayas/Aklan.jpg",
+        "description": "The Philippines is known for having some of the most gorgeous beaches in the world that are loved by both locals and foreign tourists. The province of Aklan, home base of Boracay Island, is one those Philippine destination. From white sand beaches to colorful cultural festivals, Aklan has got it all and more. Located in the Western Visayas region, Aklan with its capital of Kalibo might be a popular jumpoff for Boracay, but there's more to this province than just the popular island tourist spot."
+      }
+    }
+  },
+  "region-10": {
+    "title": "Central Visayas",
+    "locations": {
+      "location-1": {
+        "path": ["region-10", "location-1"],
+        "name": "Bohol",
+        "image": "/images/Central Visayas/Bohol.jpg",
+        "description": "The home of the famous Chocolate Hills, Bohol is one of the most visited destinations in the Central Visayas region of the Philippines. The island province offers breathtaking spots for history buffs, beach lovers, and adrenaline junkies. Bohol is comprised of one major island and 73 smaller ones surrounding it, so you'll have plenty of places to explore during your trip here. One thing’s for sure: You’ll enjoy every second of your stay and love the diversity that Bohol offers."
+      },
+      "location-2": {
+        "path": ["region-10", "location-2"],
+        "name": "Negros Oriental",
+        "image": "/images/Central Visayas/Negros Oriental.jpg",
+        "description": "Negros Oriental occupies the south-eastern half of the island of Negros, with Negros Occidental comprising the western half. It has a total land area of 5402.30 square kilometer. The province is characterized by low, grooved mountains rangers which mostly lie close to the shoreline. Negros Oriental faces Cebu to the east across the Tañon Strait and Siquijor to the south-east. The Sulu Sea is its border to the south. From the wonderful locals to the fantastic tourist getaways as well as the great food and incredible diving spots; Negros Oriental surely has it all for you."
+      },
+      "location-3": {
+        "path": ["region-10", "location-3"],
+        "name": "Cebu",
+        "image": "/images/Central Visayas/Cebu.jpg",
+        "description": "Beyond its historical sites, luxury resorts, and vibrant nightlife, this urban destination also offers eco-adventures. Within the forests of interior Cebu, waterfalls and rare birds await those adventurous enough to seek them out. While along this 200 kilometer long island, coral reefs virtually surround its entire perimeter. It's not uncommon for one to see locals, entrepreneurial as they are- tending to several businesses during the week, and going boating and scuba diving on weekends."
+      },
+      "location-4": {
+        "path": ["region-10", "location-4"],
+        "name": "Siquijor",
+        "image": "/images/Central Visayas/Siquijor.jpg",
+        "description": "Known as the Mystic Island of Central Visayas, Siquijor is the southernmost island in the Visayan Island Group. It is about 30 kilometers southeast of Negros Island and about 50 kilometers from the closest point of northwestern Mindanao. It is composed of six municipalities namely Enrique Villanueva, Larena, Lazi, Maria, San Juan and Siquijor."
+      }
+    }
+  },
+  "region-11": {
+    "title": "Eastern Visayas",
+    "locations": {
+      "location-1": {
+        "path": ["region-11", "location-1"],
+        "name": "Southern Leyte",
+        "image": "/images/Eastern Visayas/Southern Leyte.jpg",
+        "description": "Southern Leyte is exactly like a lady. She’s pretty on the outside, but the secret she hides within her makes her even more beautiful. Dive into the pristine, cerulean waters of Sogod Bay and see the beauty of its depths. One of the most biologically diverse reefs in the Philippines, Sogod Bay’s unspoiled dive sites feature beautifully steep drop-offs, majestic reefs that are teeming with life."
+      },
+      "location-2": {
+        "path": ["region-11", "location-2"],
+        "name": "Samar",
+        "image": "/images/Eastern Visayas/Samar.jpg",
+        "description": "Samar’s beauty lies not with their flashy accommodation or state-of- the-art man-made attractions; it’s going “back to basics”. Reveling in the God-given nature-based products scattered around the province. Samar is home to Asia’s 2nd largest cave system – the Langon-Gobingob Caves in Calbiga, as well as the world-renowned Sohoton Caves and Natural Bridge. Experience a thrill of the Ulot River Torpedo Boat Ride in Paranas and indulge on the succulent Tenani cuisine."
+      },
+      "location-3": {
+        "path": ["region-11", "location-3"],
+        "name": "Northern Samar",
+        "image": "/images/Eastern Visayas/Northern Samar.jpg",
+        "description": "Northern Samar covers a land area of several square kilometers from the Pacific Ocean in the East to the Samar Sea in the West. The “Balicuatro Islands” of BIRI, CAPUL, SAN ANTONIO & SAN VICENTE offer an amalgam of adventure and nature – each with their own unique tourism jewels.BIRI’s attraction are the seven geologic ROCK FORMATIONS that are breathtaking similar to Australia’s 12 Apostles. CAPUL, on the other hand, is replete in history as an anchorage for the Manila-Acapulco Galleon Trade in the 17th century."
+      },
+      "location-4": {
+        "path": ["region-11", "location-4"],
+        "name": "Leyte",
+        "image": "/images/Eastern Visayas/Leyte.jpg",
+        "description": "One of the many tourist destinations in Visayas includes the beautiful and welcoming province of Leyte. The province is home to the stunning Kalanggaman Island and its white powdery sand beach, the longest bridge in the country, and a historical World War II site. Aside from these, Leyte is also a top destination for diving, waterfalls, and more stunning beaches."
+      },
+      "location-5": {
+        "path": ["region-11", "location-5"],
+        "name": "Eastern Samar",
+        "image": "/images/Eastern Visayas/Eastern Samar.jpg",
+        "description": "Eastern Samar is famous in Philippine history is Homonhon Island off the coast of Guiuan, the province’s southern-most town, facing both the Pacific Ocean and the Leyte Gulf where Magellan first landed. Guiuan by itself is a quaint town composed of several Island-Barangays, each with its own story to tell. Sulangan is a Pilgrim center of St. Anthony of Padua; Tubabao Island played host to the Russian Refugees in the 1930’s; and Calico-an Island is the surfing capital of Eastern Visayas."
+      },
+      "location-6": {
+        "path": ["region-11", "location-6"],
+        "name": "Biliran",
+        "image": "/images/Eastern Visayas/Biliran.jpg",
+        "description": "If you’re looking for something that’s off the beaten path, wander into Biliran Island. A young province, Biliran Island is composed of eight towns, each with its own distinct personality. It’s a laid-back Island Province with lots to do for everyone. Take a bike and go around the province in half a day! Go island hopping between Sambawan Island in Maripipi to Higatangan, Dalutan and Capiñahan Islets. Jump off every single waterfall, from Bagongbong to the Kinaraha Cascades."
+      }
+    }
+  },
+  "region-12": {
+    "title": "Zamboanga Peninsula",
+    "locations": {
+      "location-1": {
+        "path": ["region-12", "location-1"],
+        "name": "Zamboanga Del Sur",
+        "image": "/images/Zamboanga Peninsula/Zamboanga Del Sur.jpg",
+        "description": "Come here for the best source of crustaceans in the Philippines, and for continued adventure. Zamboanga del Sur comprises four bays, three rivers, three lakes, and plenty of nature. People here speak mainly Cebuano, but you’ll hear a bit of English and Chavacano as well. The land’s first settlers were the “river folk”—called Subanons or Subanens."
+      },
+      "location-2": {
+        "path": ["region-12", "location-2"],
+        "name": "Zamboanga Del Norte",
+        "image": "/images/Zamboanga Peninsula/Zamboanga Del Norte.jpg",
+        "description": "Dapitan—it was Philippine national hero Jose Rizal’s home for four years, his last days in exile. The place is marked with a lot of history, some of it even told by Rizal himself. Locals say he decorated the central plaza by planting gumamela (hibiscus) and acacia trees, and helped create a relief map of Mindanao to teach locals about geography. After winning a small lottery, he built a house for his family on 16 hectares of land, now called The Rizal Shrine Park. Take a moment on your itinerary here, to see this monument to a national hero, and enjoy the park’s tranquil atmosphere."
+      }
+    }
+  },
+  "region-13": {
+    "title": "Northern Mindanao",
+    "locations": {
+      "location-1": {
+        "path": ["region-13", "location-1"],
+        "name": "Cagayan De Oro City",
+        "image": "/images/Northern Mindanao/Cagayan De Oro City.jpg",
+        "description": "Cagayan de Oro City stands as the business, trade, information technology, and adventure tourism center of Mindanao. In fact, it has become the leading convention center for Visayas and Mindanao. Those planning to hold conventions or similar events can select from a wide range of facilities including large convention halls and affordable training centers. As the City of Golden Opportunities, it is considered as the regional growth capital of Northern Mindanao and the focus of investment in the region. It is also the transhipment point for agricultural and industrial produce of nearby provinces."
+      },
+      "location-2": {
+        "path": ["region-13", "location-2"],
+        "name": "Misamis Oriental",
+        "image": "/images/Northern Mindanao/Misamis Oriental.jpg",
+        "description": "Misamis Oriental is certainly the place to get high on adrenaline and excitement. Unique geologic and climatic conditions have created spectacularly sharp contrasts, towering mountains, steaming jungles, idyllic palm-fringed beaches, carefully manicured terraced hills, and monumental expressions of faith from highly sophisticated and ancient cultures. The choices are enormous and are sure to keep any visitor captivated. This is where adventure begins, a promise of unending thrill, excitement, and contentment."
+      },
+      "location-3": {
+        "path": ["region-13", "location-3"],
+        "name": "Ozamiz City",
+        "image": "/images/Northern Mindanao/Ozamiz City.jpg",
+        "description": "Ozamiz is home to the Fuerte de la Concepcion y del Triunfo also known as Cotta Fort and Shrine, a fort built in 1755. The Cotta Fort houses the image of the Our Lady of Triumph of the Cross, engraved on the wall of the fort facing the bay. The said image is said to be miraculous growing and is the object of pilgrimage. The Birhen sa Cotta (Virgin of the Fort) was later adopted as the second patroness of the city, after the Our Lady of the Immaculate Concepcion whose feast day is celebrated every December 8. Today, after 255 years, Cotta has become one of the most precious jewels of the Ozamiznons, even to the Misamisnons."
+      },
+      "location-4": {
+        "path": ["region-13", "location-4"],
+        "name": "Valencia City",
+        "image": "/images/Northern Mindanao/Valencia City.jpg",
+        "description": "Located in the heart of Mindanao is the City of Valencia in the Province of Bukidnon. With its hills and plains rich in natural resources, the brisk trade and the rich harvest from the various farms, it is considered as the agri-tourism capital ofthe province of Bukidnon."
+      },
+      "location-5": {
+        "path": ["region-13", "location-5"],
+        "name": "Malaybalay City",
+        "image": "/images/Northern Mindanao/Malaybalay City.jpg",
+        "description": "Malaybalay City sits atop a heart shaped plateau located in the heart of Bukidnon, a highland which also happens to be the heart of Mindanao. It is no wonder that, no matter how cold the temperature gets in Malaybalay, the people remain warm and loving."
+      },
+      "location-6": {
+        "path": ["region-13", "location-6"],
+        "name": "Lanao Del Norte",
+        "image": "/images/Northern Mindanao/Lanao Del Norte.jpg",
+        "description": "The ecologically rich Province of Lanao del Norte is synonymous with unspoiled natural beauty. Most of the area is blanketed by pristine tropical rainforests and is considered among the best preserved in the country. The province has a very rich and colorful history, cultural mix, and has a teeming aqua marine life. It is a destination stopover tourists wouldn't want to miss."
+      },
+      "location-7": {
+        "path": ["region-13", "location-7"],
+        "name": "Iligan City",
+        "image": "/images/Northern Mindanao/Iligan City.jpg",
+        "description": "Ilagan City has 23 confirmed waterfalls with 39 others reported by local barangay heads. The most famous among these is the Maria Cristina Falls which was harnessed by the National Power Corporation in the 1950s. The falls generate electricity to power not just the City of Iligan but almost all of the Island of Mindanao."
+      },
+      "location-8": {
+        "path": ["region-13", "location-8"],
+        "name": "Camiguin",
+        "image": "/images/Northern Mindanao/Camiguin.jpg",
+        "description": "Somewhere between the sea and the sky, in the north eastern part of the region, is the summer dream of many Filipinos. Spend lazy, sun-filled days discovering the pear-shaped volcanic island of Camiguin, the Island Born of Fire."
+      },
+      "location-9": {
+        "path": ["region-13", "location-9"],
+        "name": "Bukidnon",
+        "image": "/images/Northern Mindanao/Bukidnon.jpg",
+        "description": "Cloud-capped mountains peaks and plateaus, dizzying precipices, deep forests, fertile valleys, cascading rivers and waterfalls, lakes teeming with fish, not to mention enchanting villages and warm-hearted people. This is Bukidnon, an ecotourism and heritage destination for those who enjoy adventure, nature, and everything cultural, traditional, and religious."
+      }
+    }
+  },
+  "region-14": {
+    "title": "Davao Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-14", "location-1"],
+        "name": "Davao City",
+        "image": "/images/Davao Region/Davao City.jpg",
+        "description": "Davao City is the regional center of Davao Region. It is the most populous city in Mindanao and the third largest city in the Philippines. Known for its bustling economic activities, urban build-up and modern amenities, Davao City is one of the most important economies in the island, and the third most important urban center in the Philippines."
+      },
+      "location-2": {
+        "path": ["region-14", "location-2"],
+        "name": "Davao Del Sur",
+        "image": "/images/Davao Region/Davao Del Sur.jpg",
+        "description": "Davao del Sur’s capital city of Digos borders the nearby Davao City in the north. It is bordered by Cotabato, Kidapawan City and Sultan Kudarat in the west; by General Santos City and Celebes Sea in the south; and by the Davao Gulf in the east."
+      },
+      "location-3": {
+        "path": ["region-14", "location-3"],
+        "name": "Davao Del Norte",
+        "image": "/images/Davao Region/Davao Del Norte.jpg",
+        "description": "Davao del Norte is primarily an agricultural province. No wonder it is hailed as the Banana Capital of the Philippines, with many plantations run by multinationals and local producers. However, the province also boasts of its vast array of tourist attractions. To all beach bums and those who love adventure, explore the great diving sites and fine beaches of Island Garden City of Samal. With the fast infrastructure development in its capital city, Tagum, MICE and sports tourism is also becoming popular in the province."
+      }
+    }
+  },
+  "region-15": {
+    "title": "SOCCSKSARGEN",
+    "locations": {
+      "location-1": {
+        "path": ["region-15", "location-1"],
+        "name": "Sultan Kudarat",
+        "image": "/images/SOCCSKSARGEN/Sultan Kudarat.jpg",
+        "description": "Southern Leyte is exactly like a lady. She’s pretty on the outside, but the secret she hides within her makes her even more beautiful. Dive into the pristine, cerulean waters of Sogod Bay and see the beauty of its depths. One of the most biologically diverse reefs in the Philippines, Sogod Bay’s unspoiled dive sites feature beautifully steep drop-offs, majestic reefs that are teeming with life."
+      },
+      "location-2": {
+        "path": ["region-15", "location-2"],
+        "name": "South Cotabato",
+        "image": "/images/SOCCSKSARGEN/South Cotabato.jpg",
+        "description": "Samar’s beauty lies not with their flashy accommodation or state-of- the-art man-made attractions; it’s going “back to basics”. Reveling in the God-given nature-based products scattered around the province. Samar is home to Asia’s 2nd largest cave system – the Langon-Gobingob Caves in Calbiga, as well as the world-renowned Sohoton Caves and Natural Bridge. Experience a thrill of the Ulot River Torpedo Boat Ride in Paranas and indulge on the succulent Tenani cuisine."
+      },
+      "location-3": {
+        "path": ["region-15", "location-3"],
+        "name": "Sarangani Province",
+        "image": "/images/SOCCSKSARGEN/Sarangani Province.jpg",
+        "description": "Northern Samar covers a land area of several square kilometers from the Pacific Ocean in the East to the Samar Sea in the West. The “Balicuatro Islands” of BIRI, CAPUL, SAN ANTONIO & SAN VICENTE offer an amalgam of adventure and nature – each with their own unique tourism jewels.BIRI’s attraction are the seven geologic ROCK FORMATIONS that are breathtaking similar to Australia’s 12 Apostles. CAPUL, on the other hand, is replete in history as an anchorage for the Manila-Acapulco Galleon Trade in the 17th century."
+      },
+      "location-4": {
+        "path": ["region-15", "location-4"],
+        "name": "Cotabato Province",
+        "image": "/images/SOCCSKSARGEN/Cotabato Province.jpg",
+        "description": "One of the many tourist destinations in Visayas includes the beautiful and welcoming province of Leyte. The province is home to the stunning Kalanggaman Island and its white powdery sand beach, the longest bridge in the country, and a historical World War II site. Aside from these, Leyte is also a top destination for diving, waterfalls, and more stunning beaches."
+      },
+      "location-5": {
+        "path": ["region-15", "location-5"],
+        "name": "Cotabato City",
+        "image": "/images/SOCCSKSARGEN/Cotabato City.jpg",
+        "description": "Eastern Samar is famous in Philippine history is Homonhon Island off the coast of Guiuan, the province’s southern-most town, facing both the Pacific Ocean and the Leyte Gulf where Magellan first landed. Guiuan by itself is a quaint town composed of several Island-Barangays, each with its own story to tell. Sulangan is a Pilgrim center of St. Anthony of Padua; Tubabao Island played host to the Russian Refugees in the 1930’s; and Calico-an Island is the surfing capital of Eastern Visayas."
+      }
+    }
+  },
+  "region-16": {
+    "title": "Caraga Region",
+    "locations": {
+      "location-1": {
+        "path": ["region-16", "location-1"],
+        "name": "Surigao City",
+        "image": "/images/Caraga Region/Surigao City.jpg",
+        "description": "Is geographically located in the northeastern portion of Mindanao. It is bounded by Dinagat Island on the north, the mainland of Surigao del Norte on the south, Hinatuan passage on the east, Surigao Strait and Southern Leyte on the west. Surigao City is popularly known as the City of Island Adventures and is considered a haven of leisure and adventure because it has 17 panoramic islands with long stretches of pristine white sand beaches, mystical caves, vast mangrove forest and under water sceneries."
+      },
+      "location-2": {
+        "path": ["region-16", "location-2"],
+        "name": "Agusan Del Norte",
+        "image": "/images/Caraga Region/Agusan Del Norte.jpg",
+        "description": "A province of the Philippines located in the northeastern part of Mindanao. It is bounded on the north by Bohol Sea and Surigao Del Norte, on the east by Surigao Del Sur, on the south by Agusan Del Sur, and on the west by Misamis Oriental. Mountains dominate the eastern and western landscape while the central area is part of the vast Agusan Valley drained by the country's third longest river, the 350-kilometer-long Agusan River. The largest inland water is Lake Mainit in the northeast whose body of water the province shares with Surigao Del Norte."
+      },
+      "location-3": {
+        "path": ["region-16", "location-3"],
+        "name": "Surigao Del Sur",
+        "image": "/images/Caraga Region/Surigao Del Sur.jpg",
+        "description": "Is naturally advantaged. It is located in the northeastern coast of Mindanao facing the Pacific Ocean. It is approximately 300 kilometers in length and 50 kilometers at its widest stretch. It is bounded on the Northwest by the Province of Surigao del Norte; on the Southeast by Davao Oriental; on the East by the Pacific Ocean; and on the West and Southwest by the provinces of Agusan del Norte and Agusan del Sur. The Diwata Mountain Range lines the northwestern boundaries of the province from the rest of Mindanao."
+      },
+      "location-4": {
+        "path": ["region-16", "location-4"],
+        "name": "Surigao Del Norte",
+        "image": "/images/Caraga Region/Surigao Del Norte.jpg",
+        "description": "Surigao del Norte is a province in the Philippines located in the Caraga region of Mindanao. The province was formerly under the jurisdiction of Region 10. Its capital is Surigao City."
+      },
+      "location-5": {
+        "path": ["region-16", "location-5"],
+        "name": "Siargao Island",
+        "image": "/images/Caraga Region/Siargao Island.jpg",
+        "description": "Once a well-kept secret in surfing circles, the island of Siargao has slowly become one of the most sought-after destinations in the world. Discover why this tiny haven with world-class waves, white sand islets, turquoise tide pools, and hidden lagoons was hailed as the world’s most beautiful island back in 2018."
+      }
+    }
+  }
+}

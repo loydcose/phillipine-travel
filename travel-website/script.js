@@ -4,8 +4,6 @@ const headerCloseMenu = document.querySelector('.header__nav-close-btn')
 const headerUl = document.querySelector('nav ul')
 const body = document.querySelector('body')
 
-AOS.init()
-
 headerMenu.addEventListener('click', toggleNav)
 headerCloseMenu.addEventListener('click', toggleNav)
 
@@ -15,7 +13,6 @@ function toggleNav() {
 }
 
 const xhr = new XMLHttpRequest()
-// console.log(xhr)
 xhr.open('GET', 'data.json')
 xhr.send()
 xhr.onload = () => {
@@ -28,6 +25,7 @@ const rowTwoContents = document.querySelector('.row-2__contents')
 const mainDocument = document.querySelector('main')
 
 function outputResponse(data) {
+  console.log(data)
   const dataKeys = Object.keys(data)
   rowOne.innerHTML = `<div class="carousel"></div>`
   for (let i = 0; i < dataKeys.length - 1; i++) {
@@ -116,6 +114,9 @@ function outputResponse(data) {
       }, 100)
 
       createModal.innerHTML = `<div class="modal__header">
+            <div class="modal__close-btn">  
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.82 47.81"><g id="Layer_2" data-name="Layer 2"><g id="Main"><path d="M23.8,28.56a3.18,3.18,0,0,1-.32.44L6.05,46.65a3.59,3.59,0,0,1-4.32.74A3,3,0,0,1,.06,45,3.61,3.61,0,0,1,1.2,41.71L18.83,24.09a3.34,3.34,0,0,1,.39-.32,3.82,3.82,0,0,1-.41-.29L1.16,6.05A3.58,3.58,0,0,1,.42,1.73,3.15,3.15,0,0,1,3.51,0,3.48,3.48,0,0,1,6,1.13L23.5,18.82a4.28,4.28,0,0,1,.32.43,3,3,0,0,1,.29-.44L41.8,1.11A3.6,3.6,0,0,1,46.7.83a3.11,3.11,0,0,1,1.06,2,3.66,3.66,0,0,1-1.17,3.29L29,23.45a5.85,5.85,0,0,1-.46.37,2.53,2.53,0,0,1,.4.26L46.7,41.8a3.55,3.55,0,0,1,.3,4.86,3.32,3.32,0,0,1-3.44,1,3.62,3.62,0,0,1-1.8-1L24.11,29A4.18,4.18,0,0,1,23.8,28.56Z"/></g></g></svg>
+            </div>
             <img src="${path.image}" alt="${path.name}" />
             <h2>Welcome to ${path.name}!</h2>
           </div>
@@ -124,8 +125,14 @@ function outputResponse(data) {
           </div>`
       mainDocument.appendChild(createModal)
 
-      console.log(window.innerHeight)
-      console.log(createModal.clientHeight > window.innerHeight)
+      const modalCloseBtn = document.querySelector('.modal__close-btn')
+      modalCloseBtn.addEventListener('click', () => {
+        body.classList.remove('cl__body-overflow')
+        createModal.classList.remove('main__modal-transition')
+        setTimeout(() => {
+          createModal.remove()
+        }, 100)
+      })
 
       document.documentElement.addEventListener('keyup', (e) => {
         if (e.keyCode === 27) {
@@ -202,6 +209,10 @@ mapLocations.forEach((location, locationIndex) => {
 const regionLists = document.querySelectorAll('.row-2__side-nav ul li')
 regionLists.forEach((region, regionIndex) => {
   region.addEventListener('click', (e) => {
+    regionNav.classList.remove('row-2__side-nav__toggled')
+    body.classList.toggle('cl__body-overflow')
+    regionNavToggle.classList.toggle('side-nav__toggle__clicked')
+
     scrollOnRegions(regionIndex + 1)
   })
 })
@@ -231,3 +242,11 @@ backToTopBtn.addEventListener('click', backToTop)
 function backToTop() {
   window.scrollTo(0, 0)
 }
+
+const regionNav = document.querySelector('.row-2__side-nav')
+const regionNavToggle = document.querySelector('.side-nav__toggle')
+regionNavToggle.addEventListener('click', () => {
+  regionNav.classList.toggle('row-2__side-nav__toggled')
+  regionNavToggle.classList.toggle('side-nav__toggle__clicked')
+  body.classList.toggle('cl__body-overflow')
+})
